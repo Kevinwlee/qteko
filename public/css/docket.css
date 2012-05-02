@@ -1,0 +1,74 @@
+/*Action Item Styling*/
+#action_items div.editing {
+}
+
+#action_items div.editing.edit {
+	display: block;
+}
+
+#action_items div.view.editing {
+	display: none;
+}
+
+#action_items div.edit {
+	display: none;
+}
+
+li.complete .action-item{
+    font-size: 90%;
+	text-decoration:line-through;
+	background-color:lightgrey;
+}
+
+/*Activity Styling*/
+#activities div.editing {
+}
+
+#activities div.editing.activity-edit{
+	display: block;
+}
+
+#activities div.activity-view.editing {
+	display: none;
+}
+
+#activities div.activity-edit {
+	display: none;
+}
+
+/*Note Styling*/
+#notes div.editing {
+}
+
+#notes div.editing.note-edit{
+	display: block;
+}
+
+#notes div.note-view.editing {
+	display: none;
+}
+
+#notes div.note-edit {
+	display: none;
+}
+#notes li {
+	border-top: 1px dashed #999;
+	margin-bottom:2px;
+	padding-top:2px;
+}
+
+/*MIT Styling*/
+#mit-items div.editing {
+}
+
+#mit-items div.editing.task-edit{
+	display: block;
+}
+
+#mit-items div.task-view.editing {
+	display: none;
+}
+
+#mit-items div.task-edit {
+	display: none;
+}
