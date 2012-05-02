@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>The Docket Method, by Qteko</title>
+    <title>Qteko by Kevin W. Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A productivity system that enables you to quickly deal with distractions so that you can get back to work on your most important tasks.">
+    <meta name="description" content="iOS and Web portfolio site for Kevin W. Lee">
     <meta name="author" content="Kevin W. Lee">
 
     <!-- Le styles -->
@@ -26,20 +26,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-		<script type="text/javascript">
-
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-5195664-11']);
-		  _gaq.push(['_setDomainName', 'docketmethod.com']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
-		</script>
   </head>
 
   <body>
@@ -52,14 +38,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/">Docket</a>
+          <a class="brand" href="/">Qteko</a>
           <div class="nav-collapse">
             <ul class="nav">
 							<li><a href="/">Home</a></li>
-              <li><a href="/docket">Today's Docket</a></li>
-              <!-- <li><a href="/docket#week">Planning Grid</a></li> -->
-							<li><a href="/about">Resources</a></li>
-							<li><a href="/colophon">Colophon</a></li>
+              <li><a href="#ios">iOS</a></li>
+							<li><a href="#web">Web</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -79,34 +63,7 @@
     <script src="/js/bootstrap.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				//Action items
-				$("#new_action_item").bind("keypress", function(e){
-					 if (e.keyCode != 13) return;
-	
-						var title = $("#new_action_item").val();
-						if (!title) return;
 
-						$("<li><p>"+ title +"</p></li>").insertBefore($("#action_items li").last());	
-						$("#new_action_item").val("");
-				});
-
-				$("#mit_items li span").bind("dblclick", function(){
-
-					var text = $(this).text();
-					$(this).parent().append("<input type='text' value='"+ text +"'>")
-						.bind("keypress",function(e){
-							if (e.keyCode != 13) return;
-
-							var newText = $(this).children("input").first().val();
-							$(this).children().first().text(newText);
-
-							$(this).children().first().show();
-							$(this).children("input").first().detach();
-						});
-					
-					$(this).hide();
-				
-				});
 			});
 		</script>
 

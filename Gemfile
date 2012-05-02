@@ -7,9 +7,9 @@ gem 'sass'
 gem 'haml'
 gem 'json'
 
-group :development do
-  gem 'rb-fsevent'
-  gem 'guard'
-  gem 'guard-process'
-  gem 'guard-compass'
-end
+# group :development do
+#   gem 'rb-fsevent'
+#   gem 'guard'
+#   gem 'guard-process'
+#   gem 'guard-compass'
+# end
