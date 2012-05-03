@@ -1,3 +1,7 @@
-#web, #ios{
+#web, #ios, #about, #contact{
     margin-bottom:60px;
+}
+p.larger {
+    font-size:20px;
+    line-height:27px;
 }
