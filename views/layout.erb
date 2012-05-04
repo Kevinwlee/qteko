@@ -29,7 +29,7 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
+  <body data-spy="scroll">
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -42,7 +42,7 @@
           <a class="brand" href="/">Qteko</a>
           <div class="nav-collapse">
             <ul class="nav">
-							<li><a href="/">Home</a></li>
+							<li><a href="#top">Home</a></li>
               <li><a href="#ios">iOS</a></li>
 							<li><a href="#web">Web</a></li>
 							<li><a href="#about">About Me</a></li>
@@ -68,7 +68,7 @@
     <script src="/js/bootstrap.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-
+				$('#navbar').scrollspy()
 			});
 		</script>
 		<script type="text/javascript">
